@@ -2,28 +2,35 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("JPCST.Pattern.Structural.Adapter")]
+// As informações gerais sobre um assembly são controladas por
+// conjunto de atributos. Altere estes valores de atributo para modificar as informações
+// associada a um assembly.
+[assembly: AssemblyTitle("JPCST.Pattern.Structural.Adapter.Client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("JPCST.Pattern.Structural.Adapter")]
+[assembly: AssemblyProduct("JPCST.Pattern.Structural.Adapter.Client")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Version information for an assembly consists of the following four values:
+// Definir ComVisible como false torna os tipos neste assembly invisíveis
+// para componentes COM. Caso precise acessar um tipo neste assembly de
+// COM, defina o atributo ComVisible como true nesse tipo.
+[assembly: ComVisible(false)]
+
+// O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
+[assembly: Guid("a94a5d70-6610-48b9-b8da-c79a521fc4e9")]
+
+// As informações da versão de um assembly consistem nos quatro valores a seguir:
 //
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
+//      Versão Principal
+//      Versão Secundária 
+//      Número da Versão
+//      Revisão
 //
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
+// É possível especificar todos os valores ou usar como padrão os Números de Build e da Revisão
+// utilizando o "*" como mostrado abaixo:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: ComVisible(false)]
