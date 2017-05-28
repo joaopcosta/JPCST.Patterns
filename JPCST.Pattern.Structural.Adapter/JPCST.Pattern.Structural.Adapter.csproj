@@ -52,6 +52,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adapter.txt" />
     <Content Include="UML.Pattern.Structural.Adapter.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

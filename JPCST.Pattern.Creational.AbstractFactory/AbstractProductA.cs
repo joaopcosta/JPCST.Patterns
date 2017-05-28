@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace JPCST.Pattern.Creational.AbstractFactory
 {
-    class Program
+    /// <summary>
+    /// AbstractProduct - declares an interface for a type of product object.
+    /// </summary>
+    public abstract class AbstractProductA
     {
-        static void Main(string[] args)
-        {
-        }
+        
     }
 }
