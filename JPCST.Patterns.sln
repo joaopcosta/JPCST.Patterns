@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{284D4880-279C-483A-B06D-77B9B5162964}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{CC1A0F47-C028-4834-922E-92CD1F9C1127}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPCST.Pattern.Structural.Adapter", "JPCST.Pattern.Structural.Adapter\JPCST.Pattern.Structural.Adapter.csproj", "{A94A5D70-6610-48B9-B8DA-C79A521FC4E9}"
 EndProject
 Global
@@ -24,7 +22,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CC1A0F47-C028-4834-922E-92CD1F9C1127} = {284D4880-279C-483A-B06D-77B9B5162964}
-		{A94A5D70-6610-48B9-B8DA-C79A521FC4E9} = {CC1A0F47-C028-4834-922E-92CD1F9C1127}
+		{A94A5D70-6610-48B9-B8DA-C79A521FC4E9} = {284D4880-279C-483A-B06D-77B9B5162964}
 	EndGlobalSection
 EndGlobal
